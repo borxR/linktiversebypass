@@ -6,7 +6,7 @@ import json
 import base64
 import requests
 
-API_KEY = "1873232230:AAFO5RgUkhBYrCpE7-1O_25kqcX-fDWNfbM"
+API_KEY = ""
 bot=telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['Greet'])
